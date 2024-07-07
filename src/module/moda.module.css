@@ -1,0 +1,67 @@
+.modal{
+         top: 0;
+         bottom: 0;
+         width: 55%;
+         height: 100%;
+         position: fixed;
+         backdrop-filter: blur(3px);
+}
+.clear {
+         display: inline-block;
+         margin: 20px 0 0 6px;
+         font-size: 3.5rem;
+         width: 50px;
+         height: 50px;
+ padding: 5px;
+        text-align: center;
+        background-color: red;
+        line-height: 30px;
+        font-weight: 700;
+        cursor: pointer;
+
+}
+.chart{
+         width: 790px;
+         height: 200px;
+}
+.box{
+         width: 900px;
+         background-color: #18181ce6;
+         border:  2px solid #404042;
+ 
+         margin: auto;
+         margin-top: 60px;
+         padding: 10px;
+         border-radius: 5px;
+}
+.name {
+         display: flex;
+         /* text-align: center; */
+         align-items: center;
+         margin-bottom: 30px;
+
+}
+.name img{
+         width: 40px;
+         margin-right: 10px;
+}
+.button button{
+         padding: 10px;
+         border: 2px solid #9f9ff5;
+         background-color: #000000;
+         color: #fff;
+         margin-right: 20px;
+         border-radius: 5px;
+         margin:20px;
+         cursor: pointer;
+}
+.list{
+         display: flex;
+         justify-content: space-between;
+}
+.list div{
+         display: flex;
+}
+.list p{
+         color: rgb(151, 151, 240);
+}
